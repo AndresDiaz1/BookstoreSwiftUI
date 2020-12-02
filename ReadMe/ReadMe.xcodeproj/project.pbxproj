@@ -13,6 +13,8 @@
 		524A6A8F256F1C5000EA49F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524A6A8E256F1C5000EA49F9 /* Preview Assets.xcassets */; };
 		524A6A98256F21B500EA49F9 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A6A97256F21B500EA49F9 /* Book.swift */; };
 		524A6A9C256F22A800EA49F9 /*  BookViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A6A9B256F22A800EA49F9 /*  BookViews.swift */; };
+		52F45BA8257718A6009220F9 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F45BA7257718A6009220F9 /* Library.swift */; };
+		52F45BAB25771A41009220F9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F45BAA25771A41009220F9 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		524A6A90256F1C5000EA49F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		524A6A97256F21B500EA49F9 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		524A6A9B256F22A800EA49F9 /*  BookViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " BookViews.swift"; sourceTree = "<group>"; };
+		52F45BA7257718A6009220F9 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		52F45BAA25771A41009220F9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 				524A6A8B256F1C5000EA49F9 /* Assets.xcassets */,
 				524A6A90256F1C5000EA49F9 /* Info.plist */,
 				524A6A8D256F1C5000EA49F9 /* Preview Content */,
+				52F45BA7257718A6009220F9 /* Library.swift */,
 			);
 			path = ReadMe;
 			sourceTree = "<group>";
@@ -79,6 +84,7 @@
 			children = (
 				524A6A89256F1C4F00EA49F9 /* ContentView.swift */,
 				524A6A9B256F22A800EA49F9 /*  BookViews.swift */,
+				52F45BAA25771A41009220F9 /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,7 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				524A6A9C256F22A800EA49F9 /*  BookViews.swift in Sources */,
+				52F45BAB25771A41009220F9 /* DetailView.swift in Sources */,
 				524A6A8A256F1C4F00EA49F9 /* ContentView.swift in Sources */,
+				52F45BA8257718A6009220F9 /* Library.swift in Sources */,
 				524A6A88256F1C4F00EA49F9 /* ReadMeApp.swift in Sources */,
 				524A6A98256F21B500EA49F9 /* Book.swift in Sources */,
 			);
