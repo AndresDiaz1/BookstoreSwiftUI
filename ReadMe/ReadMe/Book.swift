@@ -5,7 +5,7 @@
 //  Created by MacBook Pro on 25/11/20.
 //
 
-struct Book {
+struct Book: Hashable {
     let title: String
     let author: String
     

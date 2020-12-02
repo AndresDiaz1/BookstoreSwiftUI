@@ -49,8 +49,8 @@ struct Book_Previews: PreviewProvider {
             Book.Image(title:Book().title)
             Book.Image(title:"")
             Book.Image(title:"📓" )
-
         }
+        .previewedInAllColorSchemes
     }
 }
 
@@ -68,5 +68,11 @@ extension Image {
         }
         
         self.init(systemName: symbolName )
+    }
+}
+
+extension View {
+    var previewedInAllColorSchemes: some View {
+        ForEach(ColorScheme.allCases, id: \.self, content: preferredColorScheme)
     }
 }
